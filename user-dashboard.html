@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>User Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="dashboard">
+    <h2>Welcome, User</h2>
+
+    <!-- Show Current Balance -->
+    <h3>Check Balance</h3>
+    <p>Your Balance: ₹<span id="balance">0</span></p>
+
+    <!-- Deposit Form -->
+    <h3>Deposit Money</h3>
+    <input type="number" id="depositAmount" placeholder="Enter amount to deposit" />
+    <button onclick="depositMoney()">Deposit</button>
+
+    <!-- Logout -->
+    <br><br>
+    <a href="index.html">Logout</a>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
